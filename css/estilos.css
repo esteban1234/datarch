@@ -69,9 +69,17 @@ nav ul a#select{
 }
 .fondo{
     width: 100%;
-    background: rgba(0,0,0,.4);
+    background: rgba(0,0,0,.7);
     height: 400px;
     overflow: hidden;
+}
+
+.fondo p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 7%;
+    text-align: center;
 }
 
 .btn-outline {
@@ -106,6 +114,274 @@ nav ul a#select{
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
     color: #fff;
+}
+
+.imagen{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/uno.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen2{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/tres.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen3{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/cuatro.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen4{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/dos.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen5{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/cinco.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen6{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/siete.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen7{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/seis.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen8{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/cinco.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen9{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/diez.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen10{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/ocho.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen11{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/once.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen12{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/nueva.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen13{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/trece.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen14{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/quince.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen15{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/catorce.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen16{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/doce.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen17{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/diesiocho.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen18{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/diesinueve.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen19{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/diesiseis.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.imagen20{
+    width: 100%;
+    /*position: relative;*/
+    height: 48px;
+    background: url('../img/diesisiete.jpg');
+    /*background-size: cover;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    overflow: hidden;
+    clear: both;
+
+}
+.texto{
+    border: 1px gray solid;
+    text-align: center;
+    padding: 5% 5%;
+    width: 60%;
+    margin: 0 auto;
 }
 /*.............FOOTER--------------*/
 footer{
