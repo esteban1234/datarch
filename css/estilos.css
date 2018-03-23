@@ -427,7 +427,27 @@ footer p{
     margin-top: 7%;
     text-align: center;
 }
-
+.iconos{
+    text-align: center;
+    background: #BA5417;
+    padding: 5% 0%;
+}
+.iconos i{
+    color: #fff;
+}
+.cuadro:hover{
+    border-bottom: 1px #BA5417 solid;
+    border-left: 1px #BA5417 solid;
+    border-right: 1px #BA5417 solid;
+}
+.texton{
+    border: 1px gray solid;
+    text-align: center;
+    padding: 5% 5%;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 17px;
+}
 /*-------------servicios-----------------*/
 
 /*--------------------contacto-----------------*/
