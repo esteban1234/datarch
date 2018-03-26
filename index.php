@@ -7,7 +7,7 @@
             <ul>
                 <a class="selector" id="select" href="index.php">INICIO</a>
                 <a class="selector" href="vistas/nosotros.php">NOSOTROS</a>
-                <a class="selector" href="vistas/servicios.php">SERVICIOS</a>
+                <a class="selector" href="vistas/servicios.php">PRODUCTOS</a>
                 <a class="selector" href="vistas/contacto.php">CONTACTO</a>
             </ul>
         </nav>

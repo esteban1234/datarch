@@ -7,7 +7,7 @@
             <ul>
                 <a class="selector" href="../index.php">INICIO</a>
                 <a class="selector" id="select" href="nosotros.php">NOSOTROS</a>
-                <a class="selector" href="servicios.php">SERVICIOS</a>
+                <a class="selector" href="servicios.php">PRODUCTOS</a>
                 <a class="selector" href="contacto.php">CONTACTO</a>
             </ul>
         </nav>
@@ -68,7 +68,7 @@
 
         Somos distribuidores, mayoristas y nuestros productos se pueden aplicar en toda clase y tipos de vehículos.</h1>
          <div class="text-center" style="margin-top: 5%;">
-                <a href="vistas/contacto.php" class="btn btn-danger btn-outline btn-lg">CONTACTANOS</a>
+                <a href="contacto.php" class="btn btn-danger btn-outline btn-lg">CONTACTANOS</a>
             </div>
     </div>
 
@@ -76,24 +76,31 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="mision">
+              
+            </figure>
             <h2 class="text-center">MISION</h2>
             <p class="text-center">Vender autopartes ofreciendo seguridad, variedad, calidad y confianza en nuestros productos y en las compras que realice, asegurando garantías en tiempo de entrega y costo de envío.</p>
           </div>
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="vision">
+              
+            </figure>
             <h2 class="text-center">VISION</h2>
             <p class="text-center">Ser el mejor distribuidor de autopartes, manteniendo al 100% de nuestros clientes satisfechos.</p>
           </div>
           <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
-            class="img-responsive">
+            <figure class="valores">
+              
+            </figure>
             <h2 class="text-center">VALORES</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
+            <p class="text-center">
+              <i class="fas fa-angle-right"></i> Responsabilidad <br>
+              <i class="fas fa-angle-right"></i> Profesionalismo <br>
+              <i class="fas fa-angle-right"></i> Compromiso <br>
+              <i class="fas fa-angle-right"></i> Honestidad <br>
+              <i class="fas fa-angle-right"></i> Respeto <br>
+            </p>
           </div>
         </div>
       </div>
