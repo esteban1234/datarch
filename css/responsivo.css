@@ -1,0 +1,956 @@
+@media screen and (max-width: 480px){
+/******************************INDEX*************************/
+
+	nav{
+		/*border: 2px solid red;*/
+		width: 80%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul .selector{
+		border-bottom: .5px solid #000;
+		border-right: .5px solid #000;
+		display: block;
+		text-align: center;
+		position: relative !important;
+	}
+
+	.openclose{
+		overflow: hidden;
+		cursor: pointer;
+		position: absolute;
+		top: 12px; 
+		left: 20px;
+		display: block;
+	}
+
+	header{
+		height: 100%;
+		position: relative !important;
+		margin-bottom: 3px;
+	}
+
+	.logo{
+		width: 80px;
+	}
+
+	.close{
+		padding: 10px 17px;
+		display: block !important;
+		font-size: 20px;
+		display: none !important;
+	}
+
+	.open{
+		font-size: 25px;
+		padding: 10px 17px;
+	}
+
+
+
+	.banner, .fondo, .banner2, .fondo2, .banner3, .fondo3{
+		height: 100%;
+	}
+
+	.fondo p, .fondo2 p, .fondo3 p{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.fondo div, .fondo2 div, .fondo3 div{
+		margin-bottom: 20px;
+	}
+	
+	.centrar-elemento{
+		text-align: center ;
+	}
+	
+
+	.tit-mppe, .subtit-mppe{
+		text-align: center;
+	}
+
+	.salto{
+		margin-bottom: 15px;
+	}
+
+	.tit-crs{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.imagen,.imagen2,.imagen3,.imagen4,.imagen5 ,.imagen6, .imagen7, .imagen8, .imagen9,
+	.imagen10, .imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17,
+	.imagen18, .imagen19,.imagen20{
+		height: 60px;
+		background-size: 200px 100%;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-all{
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: #000 !important;
+	}
+
+	.texto, .texton{
+		width: 90%;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+/***************************END INDEX************************/
+
+
+/*******************************NOSOTROS************************/
+	.cuadro:hover{
+		border-bottom: 0px;
+    	border-left: 0px;
+    	border-right: 0px;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.tit-sta{
+		font-size: 25px;
+	}
+
+	.subtit-sta{
+		text-align: justify;
+	}
+
+	.mision, .vision, .valores{
+		margin: auto;
+		background-size: 100% 90%;
+	}
+
+	.tit-mvv{
+		margin-top: 0px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.subtit-mvv{
+		text-align: justify;
+	}
+/***************************END NOSOTROS************************/
+
+
+
+/*******************************SERVICIOS************************/
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.card figure{
+		background-size: 80% 100% !important;
+	}
+
+	.card h4{
+		margin: 0px !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 10px 0px;
+		
+	}
+
+	.index-content{
+		height: 100%;
+		padding: 5px 0px;
+		margin: 0px !important;
+	}
+
+	
+/***************************END SERVICIOS************************/
+
+
+/*******************************CONTACTO************************/
+	.tit-vvc{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 10px 0px !important;
+	}
+
+	.textoc{
+		padding: 10px 0px;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	form{
+		margin: 15px 0px;
+	}
+
+	.formBox{
+		padding: 0px;
+	}
+
+	.h1-conta{
+		font-size: 22px !important;
+		font-weight: bold;
+		margin: 15px 0px !important;
+	}
+
+	.h2-conta{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.inputBox .inputText{
+    	font-size: 18px;
+	}
+
+	.button{
+		width: 65%;
+		margin: auto !important;
+	}
+
+	.btn-envia{
+		text-align: center;
+	}
+/***************************END CONTACTO************************/
+
+
+/*******************************FOOTER************************/
+footer{
+	height: 100% !important;
+}
+
+footer p{
+	margin-bottom: 2px;
+	font-size: 18px;
+	padding: 0px 10px;
+}
+/***************************END FOOTER************************/
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+/******************************INDEX*************************/
+
+	nav{
+		width: 80%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul .selector{
+		border-bottom: .5px solid #000;
+		border-right: .5px solid #000;
+		display: block;
+		text-align: center;
+		position: relative !important;
+	}
+
+	.openclose{
+		overflow: hidden;
+		cursor: pointer;
+		position: absolute;
+		top: 12px; 
+		left: 40px;
+		display: block;
+	}
+
+	header{
+		height: 100%;
+		position: relative !important;
+		margin-bottom: 3px;
+	}
+
+	.logo{
+		width: 80px;
+	}
+
+	.close{
+		padding: 10px 17px;
+		display: block !important;
+		font-size: 20px;
+		display: none !important;
+	}
+
+	.open{
+		font-size: 25px;
+		padding: 10px 17px;
+	}
+
+
+
+	.banner, .fondo, .banner2, .fondo2, .banner3, .fondo3{
+		height: 100%;
+	}
+
+	.fondo p, .fondo2 p, .fondo3 p{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.fondo div, .fondo2 div, .fondo3 div{
+		margin-bottom: 20px;
+	}
+	
+	.centrar-elemento{
+		text-align: center ;
+	}
+	
+
+	.tit-mppe, .subtit-mppe{
+		text-align: center;
+	}
+
+	.salto{
+		margin-bottom: 15px;
+	}
+
+	.tit-crs{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.imagen,.imagen2,.imagen3,.imagen4,.imagen5 ,.imagen6, .imagen7, .imagen8, .imagen9,
+	.imagen10, .imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17,
+	.imagen18, .imagen19,.imagen20{
+		height: 60px;
+		background-size: 200px 100%;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-all{
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: #000 !important;
+	}
+
+	.texto, .texton{
+		width: 90%;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+/***************************END INDEX************************/
+
+
+/*******************************NOSOTROS************************/
+	.cuadro:hover{
+		border-bottom: 0px;
+    	border-left: 0px;
+    	border-right: 0px;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.tit-sta{
+		font-size: 25px;
+	}
+
+	.subtit-sta{
+		text-align: justify;
+	}
+
+	.mision, .vision, .valores{
+		margin: auto;
+		background-size: 100% 90%;
+	}
+
+	.tit-mvv{
+		margin-top: 0px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.subtit-mvv{
+		text-align: justify;
+	}
+/***************************END NOSOTROS************************/
+
+
+
+/*******************************SERVICIOS************************/
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.card figure{
+		background-size: 80% 100% !important;
+		/*border: 2px solid red;*/
+		text-align: center;
+		width: 80% !important;
+		margin: auto;
+	}
+
+	.card h4{
+		margin: 0px !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 10px 0px;
+		
+	}
+
+	.index-content{
+		height: 100%;
+		padding: 5px 0px;
+		margin: 0px !important;
+	}
+
+	
+/***************************END SERVICIOS************************/
+
+
+/*******************************CONTACTO************************/
+	.tit-vvc{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 10px 0px !important;
+	}
+
+	.textoc{
+		padding: 10px 0px;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	form{
+		margin: 15px 0px;
+	}
+
+	.formBox{
+		padding: 0px;
+	}
+
+	.h1-conta{
+		font-size: 22px !important;
+		font-weight: bold;
+		margin: 15px 0px !important;
+	}
+
+	.h2-conta{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.inputBox .inputText{
+    	font-size: 18px;
+	}
+
+	.button{
+		width: 40%;
+		margin: auto !important;
+	}
+
+	.btn-envia{
+		text-align: center;
+	}
+/***************************END CONTACTO************************/
+
+
+/*******************************FOOTER************************/
+	footer{
+		height: 100% !important;
+	}
+
+	footer p{
+		margin-bottom: 2px;
+		font-size: 18px;
+		padding: 0px 10px;
+	}
+/***************************END FOOTER************************/
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+/******************************INDEX*************************/
+
+	nav{
+		width: 80%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul .selector{
+		border-bottom: .5px solid #000;
+		border-right: .5px solid #000;
+		display: block;
+		text-align: center;
+		position: relative !important;
+	}
+
+	.openclose{
+		overflow: hidden;
+		cursor: pointer;
+		position: absolute;
+		top: 12px; 
+		left: 40px;
+		display: block;
+	}
+
+	header{
+		height: 100%;
+		position: relative !important;
+		margin-bottom: 3px;
+	}
+
+	.logo{
+		width: 120px;
+	}
+
+	.close{
+		padding: 10px 17px;
+		display: block !important;
+		font-size: 20px;
+		display: none !important;
+	}
+
+	.open{
+		font-size: 25px;
+		padding: 10px 17px;
+	}
+
+
+
+	.banner, .fondo, .banner2, .fondo2, .banner3, .fondo3{
+		height: 100%;
+	}
+
+	.fondo p, .fondo2 p, .fondo3 p{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.fondo div, .fondo2 div, .fondo3 div{
+		margin-bottom: 20px;
+	}
+	
+	.centrar-elemento{
+		text-align: center ;
+		/*border: 2px solid red;*/
+	}
+	
+
+	.tit-mppe, .subtit-mppe{
+		text-align: center;
+	}
+
+	.salto{
+		margin-bottom: 15px;
+	}
+
+	.tit-crs{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.imagen,.imagen2,.imagen3,.imagen4,.imagen5 ,.imagen6, .imagen7, .imagen8, .imagen9,
+	.imagen10, .imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17,
+	.imagen18, .imagen19,.imagen20{
+		height: 60px;
+		background-size: 200px 100%;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-all{
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: #000 !important;
+	}
+
+	.texto, .texton{
+		width: 90%;
+		font-size: 18px;
+		text-align: center;
+	}
+
+/***************************END INDEX************************/
+
+
+/*******************************NOSOTROS************************/
+	.cuadro:hover{
+		border-bottom: 0px;
+    	border-left: 0px;
+    	border-right: 0px;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.tit-sta{
+		font-size: 25px;
+	}
+
+	.subtit-sta{
+		text-align: justify;
+	}
+
+	.mision, .vision, .valores{
+		margin: auto;
+		background-size: 100% 100%;
+	}
+
+	.tit-mvv{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.subtit-mvv{
+		text-align: justify;
+	}
+/***************************END NOSOTROS************************/
+
+
+
+/*******************************SERVICIOS************************/
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.card figure{
+		background-size: 90% 100% !important;
+		/*border: 2px solid red;*/
+		text-align: center;
+		width: 80% !important;
+		margin: auto;
+	}
+
+	.card h4{
+		margin: 0px !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 10px 0px;
+		
+	}
+
+	.index-content{
+		height: 100%;
+		padding: 5px 0px;
+		margin: 0px !important;
+	}
+
+	
+/***************************END SERVICIOS************************/
+
+
+/*******************************CONTACTO************************/
+	.tit-vvc{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 10px 0px !important;
+	}
+
+	.textoc{
+		padding: 10px 0px;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	form{
+		margin: 15px 0px;
+	}
+
+	.formBox{
+		padding: 0px;
+	}
+
+	.h1-conta{
+		font-size: 22px !important;
+		font-weight: bold;
+		margin: 15px 0px !important;
+	}
+
+	.h2-conta{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.inputBox .inputText{
+    	font-size: 18px;
+	}
+
+	.button{
+		width: 40%;
+		margin: auto !important;
+	}
+
+	.btn-envia{
+		text-align: center;
+	}
+/***************************END CONTACTO************************/
+
+
+/*******************************FOOTER************************/
+	footer{
+		height: 100% !important;
+	}
+
+	footer p{
+		margin-bottom: 2px;
+		font-size: 18px;
+		padding: 0px 10px;
+	}
+/***************************END FOOTER************************/
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	/******************************INDEX*************************/
+
+/*	nav{
+		width: 80%;
+		margin: auto;
+		display: none;
+	}
+
+	nav ul .selector{
+		border-bottom: .5px solid #000;
+		border-right: .5px solid #000;
+		display: block;
+		text-align: center;
+		position: relative !important;
+	}
+
+	.openclose{
+		overflow: hidden;
+		cursor: pointer;
+		position: absolute;
+		top: 12px; 
+		left: 40px;
+		display: block;
+	}
+
+	header{
+		height: 100%;
+		position: relative !important;
+		margin-bottom: 3px;
+	}
+
+	.logo{
+		width: 120px;
+	}
+
+	.close{
+		padding: 10px 17px;
+		display: block !important;
+		font-size: 20px;
+		display: none !important;
+	}
+
+	.open{
+		font-size: 25px;
+		padding: 10px 17px;
+	}
+*/
+
+
+	.banner, .fondo, .banner2, .fondo2, .banner3, .fondo3{
+		height: 100%;
+	}
+
+	.fondo p, .fondo2 p, .fondo3 p{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.fondo div, .fondo2 div, .fondo3 div{
+		margin-bottom: 20px;
+	}
+	
+	.centrar-elemento{
+		text-align: center ;
+		/*border: 2px solid red;*/
+	}
+	
+
+	.tit-mppe, .subtit-mppe{
+		text-align: center;
+	}
+
+	.salto{
+		margin-bottom: 15px;
+	}
+
+	.tit-crs{
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.imagen,.imagen2,.imagen3,.imagen4,.imagen5 ,.imagen6, .imagen7, .imagen8, .imagen9,
+	.imagen10, .imagen11, .imagen12, .imagen13, .imagen14, .imagen15, .imagen16, .imagen17,
+	.imagen18, .imagen19,.imagen20{
+		height: 60px;
+		background-size: 200px 100%;
+	}
+
+	.delete-br{
+		display: none;
+	}
+
+	.tit-all{
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		color: #000 !important;
+	}
+
+	.texto, .texton{
+		width: 90%;
+		font-size: 20px;
+		/*text-align: justify;*/
+	}
+
+/***************************END INDEX************************/
+
+
+/*******************************NOSOTROS************************/
+	.cuadro:hover{
+		border-bottom: 0px;
+    	border-left: 0px;
+    	border-right: 0px;
+	}
+
+	.iconos i{
+		font-size: 50px;
+	}
+
+	.tit-sta{
+		font-size: 25px;
+	}
+
+	.subtit-sta{
+		text-align: justify;
+	}
+
+	.mision, .vision, .valores{
+		margin: auto;
+		background-size: 100% 100%;
+	}
+
+	.tit-mvv{
+		margin-top: 10px;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	.subtit-mvv{
+		text-align: justify;
+	}
+/***************************END NOSOTROS************************/
+
+
+
+/*******************************SERVICIOS************************/
+
+	.card{
+		margin-bottom: 10px;
+	}
+
+	.card figure{
+		background-size: 90% 100% !important;
+		/*border: 2px solid red;*/
+		text-align: center;
+		width: 80% !important;
+		margin: auto;
+	}
+
+	.card h4{
+		margin: 0px !important;
+		text-align: center;
+		font-weight: bold;
+		font-size: 18px;
+		padding: 10px 0px;
+		
+	}
+
+	.index-content{
+		height: 100%;
+		padding: 5px 0px;
+		margin: 0px !important;
+	}
+
+	
+/***************************END SERVICIOS************************/
+
+
+/*******************************CONTACTO************************/
+	.tit-vvc{
+		font-size: 22px;
+		font-weight: bold;
+		margin: 10px 0px !important;
+	}
+
+	.textoc{
+		padding: 10px 0px;
+		font-size: 18px;
+		text-align: justify;
+	}
+
+	form{
+		margin: 15px 0px;
+	}
+
+	.formBox{
+		padding: 0px;
+	}
+
+	.h1-conta{
+		font-size: 22px !important;
+		font-weight: bold;
+		margin: 15px 0px !important;
+	}
+
+	.h2-conta{
+		font-size: 20px;
+		text-align: justify;
+	}
+
+	.inputBox .inputText{
+    	font-size: 18px;
+	}
+
+	.button{
+		width: 40%;
+		margin: auto !important;
+	}
+
+	.btn-envia{
+		text-align: center;
+	}
+/***************************END CONTACTO************************/
+
+
+/*******************************FOOTER************************/
+	footer{
+		height: 100% !important;
+	}
+
+	footer p{
+		margin-bottom: 2px;
+		font-size: 18px;
+		padding: 0px 10px;
+	}
+/***************************END FOOTER************************/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

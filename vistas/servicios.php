@@ -12,6 +12,10 @@
             </ul>
         </nav>
 
+        <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>
+
         <figure class="logo pull-right">
             <img src="../img/datarch.png" alt="DATARCH" class="img-responsive">
         </figure>
@@ -28,17 +32,16 @@
 
     <div class="index-content">
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
-                        <figure class="imagens">
-                        </figure>
+                        <figure class="imagens"></figure>
                         <h4>Aceites Y Aditivos Para Motor</h4>
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens2">
                         </figure>
@@ -46,8 +49,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens3">
                         </figure>
@@ -55,11 +58,11 @@
                     </div>
                 </div>
             </a>
-    </div> <br><br>
+    </div> <br class="delete-br"><br class="delete-br">
 
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens4">
                         </figure>
@@ -67,8 +70,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens5">
                         </figure>
@@ -76,8 +79,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens6">
                         </figure>
@@ -87,11 +90,11 @@
             </a>
     </div>
 
-    <br><br>
+    <br class="delete-br"><br class="delete-br">
 
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens7">
                         </figure>
@@ -99,8 +102,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens8">
                         </figure>
@@ -108,8 +111,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens9">
                         </figure>
@@ -119,11 +122,11 @@
             </a>
     </div>
 
-    <br><br>
+    <br class="delete-br"><br class="delete-br">
 
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens10">
                         </figure>
@@ -131,8 +134,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens11">
                         </figure>
@@ -140,8 +143,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens12">
                         </figure>
@@ -151,11 +154,11 @@
             </a>
     </div>
 
-    <br><br>
+    <br class="delete-br"><br class="delete-br">
 
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens13">
                         </figure>
@@ -163,8 +166,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens14">
                         </figure>
@@ -172,8 +175,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens15">
                         </figure>
@@ -183,11 +186,11 @@
             </a>
     </div>
 
-    <br><br>
+    <br class="delete-br"><br class="delete-br">
 
     <div class="container">
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens16">
                         </figure>
@@ -195,8 +198,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                        <figure class="imagens17">
                         </figure>
@@ -204,8 +207,8 @@
                     </div>
                 </div>
             </a>
-            <a href="#">
-                <div class="col-md-4">
+            <a href="#" class="a-ref">
+                <div class="col-sm-4 col-md-4">
                     <div class="card">
                         <figure class="imagens18">
                         </figure>
@@ -217,7 +220,7 @@
 
 
 </div>
-<div class="text-center" style="margin-top: 2%; margin-bottom: 2%;">
+<div class="text-center btn-serv" style="margin-top: 2%; margin-bottom: 2%;">
                 <a href="contacto.php" class="btn btn-danger btn-outline btn-lg">CONTACTANOS</a>
             </div>
 	

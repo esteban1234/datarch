@@ -1,14 +1,14 @@
 function sendCORREO(){
-	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO, txtESTATUS;
+	var connect, form, result, txtNOMBRE, txtCORREO,txtTELEFONO, txtCOMENTARIO, txtAPELLIDO;
 	var exprCORREO = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
 	var exprNUMERO = /^1[8-9]|[2-5]\d|60$/;
 	txtNOMBRE = __('txtNOMBRE').value;
 	txtCORREO = __('txtCORREO').value;
 	txtTELEFONO = __('txtTELEFONO').value;
     txtCOMENTARIO = __('txtCOMENTARIO').value;
-    txtESTATUS = __('txtESTATUS').value;
+    txtAPELLIDO = __('txtAPELLIDO').value;
 
-	if (txtNOMBRE != ''  && txtCORREO != '' && txtTELEFONO != '' && txtCOMENTARIO != ''){
+	if (txtNOMBRE != ''  && txtCORREO != '' && txtTELEFONO != '' && txtCOMENTARIO != '' && txtAPELLIDO != ''){
 		if(!exprCORREO.test(txtCORREO)){
 
 			result = '<div class="alert alert-dismissible alert-danger">';
@@ -28,7 +28,7 @@ function sendCORREO(){
 		}
 		else
 		{
-			form = 'txtNOMBRE=' + txtNOMBRE + '&txtCORREO=' + txtCORREO + '&txtTELEFONO=' + txtTELEFONO +'&txtCOMENTARIO=' + txtCOMENTARIO;
+			form = 'txtNOMBRE=' + txtNOMBRE + '&txtCORREO=' + txtCORREO + '&txtTELEFONO=' + txtTELEFONO +'&txtCOMENTARIO=' + txtCOMENTARIO +'&txtAPELLIDO=' + txtAPELLIDO;
 			connect =  window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 			connect.onreadystatechange = function(){
 				if(connect.readyState == 4 && connect.status == 200){
@@ -47,12 +47,12 @@ function sendCORREO(){
 				}
 			}
 
-			if(txtESTATUS == 1){
-				connect.open('POST','vistas/envia.php',true);	
-			}
-			else{
+			// if(txtESTATUS == 1){
+				// connect.open('POST','vistas/envia.php',true);	
+			// }
+			// else{
 				connect.open('POST','envia.php',true);
-			}
+			// }
 			
 			connect.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
 			connect.send(form);
@@ -81,5 +81,6 @@ function LimpiarCampos()
 	__('txtCORREO').value ="";
 	__('txtTELEFONO').value ="";
     __('txtCOMENTARIO').value ="";
+    __('txtAPELLIDO').value ="";
 
 }

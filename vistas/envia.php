@@ -11,6 +11,7 @@ $nombre = $_POST['txtNOMBRE'];
 $telefono = $_POST['txtTELEFONO'];
 $correo = $_POST['txtCORREO'];
 $comentario = $_POST['txtCOMENTARIO'];
+$apellido = $_POST['txtAPELLIDO'];
 
 // if (filter_var($, FILTER_VALIDATE_EMAIL)) {
 //     echo "Esta dirección de correo ($email_a) es válida.";
@@ -19,10 +20,11 @@ $comentario = $_POST['txtCOMENTARIO'];
 $mail->CharSet = 'utf-8';
 //From email address and name
 $mail->From = $correo;
-$mail->FromName = $nombre;
+$mail->FromName = $nombre." ".$apellido;
 
 //To address and name
-$mail->addAddress("info@serviciosdatarch.com");
+// $mail->addAddress("info@serviciosdatarch.com");
+$mail->addAddress("ballina.santiago@gmail.com");
 
 
 

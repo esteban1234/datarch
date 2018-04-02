@@ -12,6 +12,10 @@
             </ul>
         </nav>
 
+        <div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>
+
         <figure class="logo pull-right">
             <img src="../img/datarch.png" alt="DATARCH" class="img-responsive">
         </figure>
@@ -30,34 +34,34 @@
 <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <div class="iconos">
               <i class="fas fa-cart-plus fa-5x"></i>
             </div>
-            <h2 class="text-center">Sabemos lo que necesita</h2>
-            <p class="text-center">Si amas tu auto y sabes lo que se necesita para que este al MÁXIMO. ¡Somos la empresa que te entiende!</p>
+            <h2 class="text-center tit-sta">Sabemos lo que necesita</h2>
+            <p class="text-center subtit-sta">Si amas tu auto y sabes lo que se necesita para que este al MÁXIMO. ¡Somos la empresa que te entiende!</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <div class="iconos">
               <i class="fas fa-map-marker-alt fa-5x"></i>
             </div>
-            <h2 class="text-center">Todo en su lugar</h2>
-            <p class="text-center">Todo lo que requieres para que tu auto se vea como quieres, bajo un mismo techo.
+            <h2 class="text-center tit-sta">Todo en su lugar</h2>
+            <p class="text-center subtit-sta">Todo lo que requieres para que tu auto se vea como quieres, bajo un mismo techo.
             No necesitaras visitar mas lugares.</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <div class="iconos">
               <i class="fas fa-cogs fa-5x"></i>
             </div>
-            <h2 class="text-center">Accesorios</h2>
-            <p class="text-center">En los accesorios se ven los buenos cambios. Y aquí tenemos los accesorios que estás buscando para tu auto. ¡Que necesitas!</p>
+            <h2 class="text-center tit-sta">Accesorios</h2>
+            <p class="text-center subtit-sta">En los accesorios se ven los buenos cambios. Y aquí tenemos los accesorios que estás buscando para tu auto. ¡Que necesitas!</p>
           </div>
-          <div class="col-md-3 cuadro">
+          <div class="col-sm-6 col-md-3 cuadro">
             <div class="iconos">
               <i class="fas fa-car fa-5x"></i>
             </div>
-            <h2 class="text-center">Piezas y refacciones</h2>
-            <p class="text-center">¿Necesitas una pieza especifica para tu auto? No pierdas tiempo y ven directo con nosotros. Aquí seguro la encuentras.</p>
+            <h2 class="text-center tit-sta">Piezas y refacciones</h2>
+            <p class="text-center subtit-sta">¿Necesitas una pieza especifica para tu auto? No pierdas tiempo y ven directo con nosotros. Aquí seguro la encuentras.</p>
           </div>
         </div>
       </div>
@@ -75,25 +79,19 @@
     <div class="section" style="padding: 5% 0%;">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <figure class="mision">
-              
-            </figure>
-            <h2 class="text-center">MISION</h2>
-            <p class="text-center">Vender autopartes ofreciendo seguridad, variedad, calidad y confianza en nuestros productos y en las compras que realice, asegurando garantías en tiempo de entrega y costo de envío.</p>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <figure class="mision"></figure>
+            <h2 class="text-center tit-mvv ">MISION</h2>
+            <p class="text-center subtit-mvv">Vender autopartes ofreciendo seguridad, variedad, calidad y confianza en nuestros productos y en las compras que realice, asegurando garantías en tiempo de entrega y costo de envío.</p>
           </div>
-          <div class="col-md-4">
-            <figure class="vision">
-              
-            </figure>
-            <h2 class="text-center">VISION</h2>
-            <p class="text-center">Ser el mejor distribuidor de autopartes, manteniendo al 100% de nuestros clientes satisfechos.</p>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <figure class="vision"></figure>
+            <h2 class="text-center tit-mvv ">VISION</h2>
+            <p class="text-center subtit-mvv">Ser el mejor distribuidor de autopartes, manteniendo al 100% de nuestros clientes satisfechos.</p>
           </div>
-          <div class="col-md-4">
-            <figure class="valores">
-              
-            </figure>
-            <h2 class="text-center">VALORES</h2>
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <figure class="valores"></figure>
+            <h2 class="text-center tit-mvv ">VALORES</h2>
             <p class="text-center">
               <i class="fas fa-angle-right"></i> Responsabilidad <br>
               <i class="fas fa-angle-right"></i> Profesionalismo <br>

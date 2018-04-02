@@ -1,18 +1,23 @@
-$(function() {
-    var contador = 1;
-    var pull = $('.op-menu');
-    menu = $('nav');
+$(document).ready(main);
 
-    $(pull).on('click', function(e) {
-        e.preventDefault();
+var contador = 1;
+
+function main() {
+    $('.openclose').click(function() {
         if (contador == 1) {
-           menu.slideToggle(1000);
+           
+            $('nav').toggle("slow");
+           
             contador = 0;
         } else {
-            menu.slideToggle(1000);
-            // abrir.slideToggle(100);
             contador = 1;
+          
+            $('nav').toggle("slow");
         }
     });
 
-});
+    // Mostramos y ocultamos submenus
+    // $('.submenu').click(function() {
+    //     $(this).children('.children').slideToggle();
+    // });
+}

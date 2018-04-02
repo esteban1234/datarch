@@ -10,7 +10,11 @@
                 <a class="selector" id="select" href="contacto.php">CONTACTO</a>
             </ul>
         </nav>
-
+		
+		<div class="openclose">
+          <i class="fa fa-bars open" aria-hidden="true"></i>
+        </div>
+        
         <figure class="logo pull-right">
             <img src="../img/datarch.png" alt="DATARCH" class="img-responsive">
         </figure>
@@ -22,12 +26,12 @@
 
     <div class="section" style="padding: 5% 0%; background: #BA5417;">
       <div class="container">
-      	 <h2 class="text-center" style="color: #fff;">Ven a vernos o contáctanos</h2> <br><br>
+      	 <h2 class="text-center tit-vvc" style="color: #fff;">Ven a vernos o contáctanos</h2> <br class="delete-br"><br class="delete-br">
         <div class="row">
           <div class="col-md-6" style="color: #fff;">
             <!-- <h1>A title</h1> -->
             <p></p>
-            <p>
+            <p class="direccion-c">
             <b>Dirección:</b> Av. 4ta Nte Pte #688 C2 por C. 5-A y C. 6ta Pte Cond Argentin Col. Teran, Tuxtla Gutierrez, Chiapas. C.P. 29050 <br><br>
             <b>Horario:</b> Lunes a Viernes de 9 am a 6 pm <br><br>
         	<b>Correo:</b> info@serviciosdatarch.com <br><br>
@@ -37,7 +41,7 @@
           <div class="col-md-6">
             <!-- <h1>A title</h1> -->
             <p></p>
-            <p class="textoc">No dudes en contactarnos. <br><br> Estamos aquí para atenderte y ayudarte a encontrar lo que necesitas.</p>
+            <p class="textoc">No dudes en contactarnos. <br class="delete-br"><br class="delete-br"> Estamos aquí para atenderte y ayudarte a encontrar lo que necesitas.</p>
             <p></p>
           </div>
         </div>
@@ -47,11 +51,11 @@
     <div class="container-fluid">
 		<div class="container">
 			<div class="formBox">
-				<form>
+				<form onSubmit="return false">
 						<div class="row">
 							<div class="col-sm-12">
-								<h1>¡Contáctanos ya!</h1>
-								<h2 class="text-center">Dinos qué necesitas y te responderemos en las próximas 24 horas</h2>
+								<h1 class="h1-conta">¡Contáctanos ya!</h1>
+								<h2 class="text-center h2-conta">Dinos qué necesitas y te responderemos en las próximas 24 horas</h2>
 							</div>
 						</div> <br><br>
 
@@ -59,14 +63,14 @@
 							<div class="col-sm-6">
 								<div class="inputBox ">
 									<div class="inputText">Nombre (s):</div>
-									<input type="text" name="" class="input">
+									<input type="text" id="txtNOMBRE" name="" class="input">
 								</div>
 							</div>
 
 							<div class="col-sm-6">
 								<div class="inputBox">
 									<div class="inputText">Apellido (s):</div>
-									<input type="text" name="" class="input">
+									<input type="text" id="txtAPELLIDO" name="" class="input">
 								</div>
 							</div>
 						</div>
@@ -75,14 +79,14 @@
 							<div class="col-sm-6">
 								<div class="inputBox">
 									<div class="inputText">Correo:</div>
-									<input type="text" name="" class="input">
+									<input type="text" id="txtCORREO" name="" class="input">
 								</div>
 							</div>
 
 							<div class="col-sm-6">
 								<div class="inputBox">
 									<div class="inputText">Teléfono:</div>
-									<input type="text" name="" class="input">
+									<input type="text" id="txtTELEFONO" name="" class="input">
 								</div>
 							</div>
 						</div>
@@ -91,14 +95,18 @@
 							<div class="col-sm-12">
 								<div class="inputBox">
 									<div class="inputText">Comentario:</div>
-									<textarea class="input"></textarea>
+									<textarea id="txtCOMENTARIO" class="input"></textarea>
 								</div>
 							</div>
 						</div>
+						
+						<div id="_AJAX_PRE_" ></div>
 
 						<div class="row">
-							<div class="col-sm-12">
-								<input type="submit" name="" class="button" value="ENVIAR MENSAJE">
+							<div class="col-sm-12 btn-envia">
+								<button  name="" class="button" onclick="sendCORREO()" >ENVIAR MENSAJE</button>
+								<!-- <input  value="ENVIAR MENSAJE"> -->
+								<!-- <button class="btn btn-warning btn-block rounded-0 py-2" onclick="sendCORREO()">ENVIAR</button> -->
 							</div>
 						</div>
 				</form>
@@ -109,11 +117,11 @@
 <a class="go-top" href="#">Subir</a>
 <?php include 'pie.php' ?>
 <script src="../js/jquery.js"></script>
-<script src="../js/sendCORREO.js"></script>
 <script src="../js/bootstrap.js"></script>
 <script src="../js/arriba.js"></script>
 <script src="../js/form.js"></script>
 <script src="../js/menu.js"></script>
 <script src="../js/sendCORREO.js"></script>
+<!-- <script src="../js/sendCORREO.js"></script> -->
 </body>
 </html>
