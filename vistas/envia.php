@@ -23,8 +23,7 @@ $mail->From = $correo;
 $mail->FromName = $nombre." ".$apellido;
 
 //To address and name
-// $mail->addAddress("info@serviciosdatarch.com");
-$mail->addAddress("ballina.santiago@gmail.com");
+$mail->addAddress("info@serviciosdatarch.com");
 
 
 
